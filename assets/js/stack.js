@@ -7,8 +7,9 @@
 // }
 
 $(document).ready(function() {
-    jQuery.get("assets/mock/stack.json", undefined, function(data) {
+    jQuery.get("../../assets/mock/stack.json", undefined, function(data) {
 let stack = data.stack;
+console.log(stack);
 $("#dock").load(getStackHtml(stack));
 });
 });
@@ -31,6 +32,6 @@ var getStackHtml = function(stackList) {
         html += "</li>";
     }
 
-    var html = "</ul>";
+    html += "</ul>";
     return html;
 }
