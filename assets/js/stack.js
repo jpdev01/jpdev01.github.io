@@ -34,13 +34,3 @@ var getStackHtml = function(stackList) {
     var html = "</ul>";
     return html;
 }
-
-
-<li id="chrome">
-      <a href="#chrome">
-        <em>
-          <span>Java</span>
-        </em>
-        <img src="../../assets/images/stack/java.svg" />
-      </a>
-    </li>
