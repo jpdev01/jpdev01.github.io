@@ -18,8 +18,8 @@ var getStackHtml = function(stackList) {
     var html = "<ul>";
     stackList.forEach(stack => {
         let name = stack.name;
-        html += `<li id='${name}>'`;
-        html += `<a href='#${name}>'`;
+        html += `<li id='${name}'>`;
+        html += `<a href='#${name}'>`;
         html += "<em>";
 
         html += `<span>${name}</span>`;
