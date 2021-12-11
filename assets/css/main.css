@@ -1,0 +1,66 @@
+Typography
+
+
+
+@media (min-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+.icons-social i {
+    font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+}
+
+main > .tagline {
+    font-size: 12.4px;
+    margin: 1.2rem 0;
+    font-weight: 120;
+    width: 800px;
+}
+
+
+.icons-social i {
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.devto {
+    margin-bottom: -0.20rem;
+}
+
+.devto svg {
+    margin-bottom: -0.20rem;
+    margin-left: 0.675rem;;
+    width: 2.65rem;
+    height: 2.65rem;
+}
