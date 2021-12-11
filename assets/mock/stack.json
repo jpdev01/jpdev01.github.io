@@ -2,7 +2,11 @@
     "stack": [
         {
            "name": "Java",
-           "image": "assets/images/stack/java.svg" 
-        }
+           "image": "java.svg" 
+        },
+        {
+            "name": "Groovy",
+            "image": "groovy_icon.png" 
+         }
     ]
 }
