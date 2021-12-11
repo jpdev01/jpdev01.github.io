@@ -10,7 +10,7 @@ $(document).ready(function() {
     jQuery.get("../../assets/mock/stack.json", undefined, function(data) {
 let stack = data.stack;
 console.log(stack);
-$("#dock").html(getStackHtml(stack));
+$(".dock").html(getStackHtml(stack));
 });
 });
 
@@ -25,7 +25,7 @@ var getStackHtml = function(stackList) {
         html += `<span>${name}</span>`;
         html += "</em>";
 
-        html += `<img src="assets/images/stack/${stack.image}" />`;
+        html += `<img src="../../assets/images/stack/${stack.image}" />`;
 
         html += "</a>";
         html += "</li>";
