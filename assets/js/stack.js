@@ -16,8 +16,7 @@ $("#dock").load(getStackHtml(stack));
 
 var getStackHtml = function(stackList) {
     var html = "<ul>";
-
-    for(stack in stackList) {
+    stackList.forEach(stack => {
         let name = stack.name;
         html += `<li id='${name}>'`;
         html += `<a href='#${name}>'`;
@@ -30,7 +29,7 @@ var getStackHtml = function(stackList) {
 
         html += "</a>";
         html += "</li>";
-    }
+    });
 
     html += "</ul>";
     return html;
