@@ -56,7 +56,7 @@ body{
 .dock li {
   display: inline-block;
   position: relative;
-  margin: 0 1px;
+  margin: 0 2px;
   margin-bottom: 15px;
   vertical-align: baseline;
   box-reflect: below -16px -webkit-gradient(linear, left top, left bottom,from(transparent),color-stop(91%, rgba(255, 255, 255, .1)),color-stop(91.01%, transparent),to(transparent));
