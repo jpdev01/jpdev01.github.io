@@ -1,12 +1,69 @@
 {
     "stack": [
         {
-           "name": "Java",
-           "image": "java.svg" 
+            "name": "Java",
+            "image": "java.svg" 
         },
         {
             "name": "Groovy",
             "image": "groovy_icon.png" 
-         }
+        },
+        {
+            "name": "PHP",
+            "image": "php.png" 
+        },
+        {
+            "name": "JavaScript",
+            "image": "javascript.svg" 
+        },
+        {
+            "name": "TypeScript",
+            "image": "typescript.png" 
+        },
+        {
+            "name": "ReactJS",
+            "image": "reactjs.png" 
+        },
+        {
+            "name": "Hibernate",
+            "image": "Hibernate.png" 
+        },
+        {
+            "name": "Spring",
+            "image": "spring.png" 
+        },
+        {
+            "name": "nodejs",
+            "image": "nodejs.png" 
+        },
+        {
+            "name": "HTML5",
+            "image": "html5.png" 
+        },
+        {
+            "name": "CSS",
+            "image": "css3.png" 
+        },
+        {
+            "name": "Angular",
+            "image": "angular-js.png" 
+        },
+        {
+            "name": "nodejs",
+            "image": "nodejs.png" 
+        },
+        {
+            "name": "Docker",
+            "image": "docker.png" 
+        },
+        {
+            "name": "AWS",
+            "image": "AWS2.png" 
+        }
+        ,
+        {
+            "name": "Bootstrap",
+            "link": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
+        }
     ]
 }

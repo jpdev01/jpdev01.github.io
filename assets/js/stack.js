@@ -25,7 +25,8 @@ var getStackHtml = function(stackList) {
         html += `<span>${name}</span>`;
         html += "</em>";
 
-        html += `<img src="../../assets/images/stack/${stack.image}" />`;
+    
+        html += `<img src="${getImageSrc(stack)}" />`; 
 
         html += "</a>";
         html += "</li>";
@@ -33,4 +34,13 @@ var getStackHtml = function(stackList) {
 
     html += "</ul>";
     return html;
+}
+
+var getImageSrc = function(stack){
+    if (stack.image) {
+        return `../../assets/images/stack/${stack.image}`; 
+    } else if(stack.link) {
+       return stack.link; 
+    }
+    return "";
 }
