@@ -25,7 +25,7 @@ var getStackHtml = function(stackList) {
         html += `<span>${name}</span>`;
         html += "</em>";
 
-        html += `<img src="../../${stack.image}}" />`;
+        html += `<img src="assets/images/stack/${stack.image}}" />`;
 
         html += "</a>";
         html += "</li>";
