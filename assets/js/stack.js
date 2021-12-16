@@ -1,10 +1,10 @@
-$(document).ready(function() {
-    jQuery.get("../../assets/mock/stack.json", undefined, function(data) {
-$(".dock").html(getStackHtml(data.stack));
-});
+$(document).ready(function () {
+    jQuery.get("../../assets/mock/stack.json", undefined, function (data) {
+        $(".dock").html(getStackHtml(data.stack));
+    });
 });
 
-var getStackHtml = function(stackList) {
+var getStackHtml = function (stackList) {
     var html = "<ul>";
     stackList.forEach(stack => {
         let name = stack.name;
@@ -15,8 +15,8 @@ var getStackHtml = function(stackList) {
         html += `<span>${name}</span>`;
         html += "</em>";
 
-    
-        html += `<img src="${getImageSrc(stack)}" />`; 
+
+        html += `<img src="${getImageSrc(stack)}" />`;
 
         html += "</a>";
         html += "</li>";
@@ -26,11 +26,11 @@ var getStackHtml = function(stackList) {
     return html;
 }
 
-var getImageSrc = function(stack){
+var getImageSrc = function (stack) {
     if (stack.image) {
-        return `../../assets/images/stack/${stack.image}`; 
-    } else if(stack.link) {
-       return stack.link; 
+        return `../../assets/images/stack/${stack.image}`;
+    } else if (stack.link) {
+        return stack.link;
     }
     return "";
 }
